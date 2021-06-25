@@ -1,0 +1,29 @@
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.w-200 {
+  width: 150px;
+}
+
+h1 {
+  margin-top: 25px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.example-full-width {
+  width: 100%;
+}

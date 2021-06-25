@@ -1,0 +1,12 @@
+<h1 mat-dialog-title>Editar tarea</h1>
+<div mat-dialog-content>
+    <p>Escribe el nuevo titulo de la tarea</p>
+    <mat-form-field>
+      <mat-label>Titulo</mat-label>
+      <input matInput [formControl]="titleControl">
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button mat-dialog-close>Cancelar</button>
+    <button mat-button mat-dialog-close [mat-dialog-close]="titleControl.value" cdkFocusInitial>Guardar</button>
+  </div>
